@@ -1,0 +1,12 @@
+# Project exclude paths
+/Sheji-1/Sheji-1-00/target/
+/Sheji-1/Sheji-1-01/target/
+/Sheji-1/Sheji-1-02/target/
+/Sheji-2/Sehji-2-02/target/
+/Sheji-2/Sheji-2-00/target/
+/Sheji-2/Sheji-2-01/target/
+/Sheji-5/target/
+.idea
+/**/target/
+/**/.idea/
+*.iml
