@@ -14,6 +14,7 @@
         <module>Sheji-2</module>
         <module>Sheji-3</module>
         <module>Sheji-4</module>
+        <module>Sheji-6</module>
     </modules>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
