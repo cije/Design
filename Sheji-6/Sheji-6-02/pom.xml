@@ -3,19 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>ShejiMoshi</artifactId>
+        <artifactId>Sheji-6</artifactId>
         <groupId>com.ce</groupId>
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Sheji-6</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>Sheji-6-00</module>
-        <module>Sheji-6-01</module>
-        <module>Sheji-6-02</module>
-    </modules>
+    <artifactId>Sheji-6-02</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.ce</groupId>
+            <artifactId>Sheji-6-00</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
